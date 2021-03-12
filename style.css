@@ -52,8 +52,8 @@ a {
 
 #main {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 200px 80px 80px ;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 220px 80px 80px ;
     grid-template-areas: 
     ". logo ."
     ". searchbar ."
@@ -67,14 +67,15 @@ a {
 #logo {
     grid-area: logo;
     justify-self: center;
-    align-self: center;
-
+    align-self: flex-end;
+    
 }
 
 #searchbar {
     grid-area: searchbar;
     justify-self: center;
     align-self: center;
+    justify-items: start;
 
 }
 
