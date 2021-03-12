@@ -52,30 +52,42 @@ a {
 
 #main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 80px 80px 200px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 200px 80px 80px ;
     grid-template-areas: 
-    ". . logo"
+    ". logo ."
     ". searchbar ."
-    ". searchbutton . "
-    ". . .";
+    ". flexbox . " ;
+}
+#flexbox {
+    grid-area: flexbox;
+    justify-self: center;
+    align-self: center;
 }
 #logo {
     grid-area: logo;
+    justify-self: center;
+    align-self: center;
 
 }
 
 #searchbar {
     grid-area: searchbar;
+    justify-self: center;
+    align-self: center;
 
 }
 
 #searchbutton {
     grid-area: searchbutton;
+    justify-self: center;
+    align-self: center;
 
 }
 
 #randombutton {
     grid-area: randombutton;
+    justify-self: center;
+    align-self: center;
 
 }
