@@ -92,3 +92,39 @@ a {
     align-self: center;
 
 }
+
+#footerLinks {
+    display:grid;
+    grid-template-columns: 20% 5% 50% 5% 20%;
+    grid-template-areas: 
+    "advertising business searchWorks . carbon . privacy terms settings"
+    ;
+}
+
+#advertising {
+    grid-area: advertising;
+}
+
+#business {
+    grid-area: business;
+}
+
+#searchWorks {
+    grid-area: searchWorks;
+}
+
+#carbon {
+    grid-area: carbon;
+}
+
+#privacy {
+    grid-area: privacy;
+}
+
+#terms {
+    grid-area: terms;
+}
+
+#settings {
+    grid-area: settings;
+}
