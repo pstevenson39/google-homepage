@@ -95,10 +95,10 @@ a {
 
 #footerLinks {
     display:grid;
-    grid-template-columns: 20% 5% 50% 5% 20%;
+    grid-template-columns: auto;
     grid-template-areas: 
-    "advertising business searchWorks . carbon . privacy terms settings"
-    ;
+    "advertising business searchWorks . carbon . privacy terms settings";
+    height: 100%;
 }
 
 #advertising {
