@@ -1,0 +1,113 @@
+html {
+    height: 100%;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+    
+button {
+    background-color: #1a73e8;
+    color: #fff;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;    
+}
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+#navbar li {
+    padding-top: 0px;
+    padding-right: 20px;
+}
+
+#main {
+    display: grid;
+    height: 88vh;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 250px 50px 50px ;
+    grid-template-areas: 
+    ". logo ."
+    ". searchbar ."
+    ". flexbox . " ;
+}
+#flexbox {
+    grid-area: flexbox;
+    justify-self: center;
+    align-self: center;
+}
+#logo {
+    grid-area: logo;
+    justify-self: center;
+    align-self: flex-end;
+    
+}
+
+#searchbar {
+    grid-area: searchbar;
+    justify-self: center;
+    align-self: center;
+    justify-items: start;
+
+}
+
+#searchbutton {
+    grid-area: searchbutton;
+    justify-self: center;
+    align-self: center;
+
+}
+
+#randombutton {
+    grid-area: randombutton;
+    justify-self: center;
+    align-self: center;
+
+}
+
+#footerLinks {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;   
+    grid-template-rows: 25px;
+    grid-template-areas: 
+    "left middle right"
+    ;
+}
+
+#leftUl {
+    grid-area: left;
+    display: flex;
+}
+
+#centerUl {
+    grid-area: middle;
+    display: flex;
+    justify-self: center;
+}
+
+#rightUl {
+    grid-area: right;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+#footerLinks li {
+    padding-right: 20px;
+}
