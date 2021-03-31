@@ -61,16 +61,19 @@ ul {
 
 #searchbar{
     grid-area: searchbar;
-    width: 75%;
+    width: 50%;
     height: 35px;
     align-self: center;
     justify-self: center;
+    border-radius: 30px;
 }
 
 #searchbutton {
     grid-area: searchbutton;
     justify-self: center;
     align-self: center;
+    border-radius: 5px;
+    height: 60px;
 
 }
 
@@ -78,6 +81,7 @@ ul {
     grid-area: randombutton;
     justify-self: center;
     align-self: center;
+
 
 }
 
