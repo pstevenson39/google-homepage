@@ -59,12 +59,12 @@ ul {
     
 }
 
-#searchbar {
+#searchbar{
     grid-area: searchbar;
-    justify-self: center;
+    width: 75%;
+    height: 35px;
     align-self: center;
-    justify-items: start;
-
+    justify-self: center;
 }
 
 #searchbutton {
